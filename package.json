@@ -1,0 +1,26 @@
+{
+  "name": "@daisy/plugin-sdk",
+  "version": "0.1.0",
+  "description": "SDK for authoring Daisy external plugins. Wires the four-endpoint HTTP contract so plugin authors only write execute().",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js"
+  },
+  "files": [
+    "index.js",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourname/your-package-name.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourname/your-package-name/issues"
+  },
+  "homepage": "https://github.com/yourname/your-package-name#readme"
+}
