@@ -17,10 +17,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourname/your-package-name.git"
+    "url": "https://github.com/vivekg13186/daisy-plugin-sdk"
   },
   "bugs": {
-    "url": "https://github.com/yourname/your-package-name/issues"
+    "url": "https://github.com/vivekg13186/daisy-plugin-sdk/issues"
   },
-  "homepage": "https://github.com/yourname/your-package-name#readme"
+  "homepage": "https://github.com/vivekg13186/daisy-plugin-sdk#readme"
 }
