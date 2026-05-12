@@ -7,6 +7,10 @@ the four-endpoint HTTP contract (`/manifest`, `/healthz`, `/readyz`,
 Zero runtime dependencies — uses Node's built-in `http` server and
 global `fetch`.
 
+# Daisy
+
+[Daisy wiki](https://github.com/vivekg13186/Daisy-workflow/wiki)
+
 ## Quick start
 
 ```bash
