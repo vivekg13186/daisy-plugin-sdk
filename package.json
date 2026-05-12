@@ -1,6 +1,6 @@
 {
   "name": "daisy-plugin-sdk",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "SDK for authoring Daisy external plugins. Wires the four-endpoint HTTP contract so plugin authors only write execute().",
   "type": "module",
   "main": "index.js",
