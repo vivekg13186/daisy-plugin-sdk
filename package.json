@@ -1,6 +1,6 @@
 {
-  "name": "daisy-plugin-sdk",
-  "version": "0.1.1",
+  "name": "@daisy-workflow/plugin-sdk",
+  "version": "0.1.2",
   "description": "SDK for authoring Daisy external plugins. Wires the four-endpoint HTTP contract so plugin authors only write execute().",
   "type": "module",
   "main": "index.js",
@@ -21,6 +21,9 @@
   },
   "bugs": {
     "url": "https://github.com/vivekg13186/daisy-plugin-sdk/issues"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "homepage": "https://github.com/vivekg13186/daisy-plugin-sdk#readme",
   "dependencies": {

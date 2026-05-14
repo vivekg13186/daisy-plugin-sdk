@@ -1,4 +1,4 @@
-# daisy-plugin-sdk
+# @daisy-workflow/plugin-sdk
 
 Tiny helper for authoring Daisy external plugins. Implements
 the four-endpoint HTTP contract (`/manifest`, `/healthz`, `/readyz`,
@@ -16,7 +16,7 @@ global `fetch`.
 ```bash
 mkdir my-plugin && cd my-plugin
 npm init -y
-npm install daisy-plugin-sdk
+npm install @daisy-workflow/plugin-sdk
 ```
 
 ```json
@@ -34,7 +34,7 @@ npm install daisy-plugin-sdk
 
 ```js
 // index.js
-import { servePlugin } from "daisy-plugin-sdk";
+import { servePlugin } from "@daisy-workflow/plugin-sdk";
 import manifest from "./manifest.json" with { type: "json" };
 
 servePlugin({
